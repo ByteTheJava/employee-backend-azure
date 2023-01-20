@@ -23,7 +23,7 @@ import com.app.employee.repository.EmployeeRepository;
 import com.app.employee.exception.ResourceNotFoundException;
 
 @RestController
-@CrossOrigin(origins = "http://localhost:4200")
+@CrossOrigin(origins = "https://lively-wave-0d8a88a10.2.azurestaticapps.net")
 public class EmployeeController {
 	@Autowired
 	private EmployeeRepository employeeRepository;
